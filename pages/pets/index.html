@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pets</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contentWrapper">
+            <div class="headerContent">
+                <div id="logo" class="logo">
+                    <h1 class="title">Cozy House</h1>
+                    <span class="subTitle">Shelter for pets in Boston</span>
+                </div>
+                <div class="navMenu">
+                    <a href="../main/index.html" class="navMenuLink">About the shelter</a>
+                    <a href="" class="navMenuLink active">Our pets</a>
+                    <a href="../main/index.html?helpSection=true" class="navMenuLink">Help the shelter</a>
+                    <a href="#footer" class="navMenuLink anchorLink">Contacts</a>
+                </div>
+                <div id="navToggle" class="navToggle">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="pets">
+        <div class="contentWrapper">
+            <div class="petsContent">
+                <h3 class="heading">
+                    Our friends who <br> are looking for a house
+                </h3>
+                <div class="cardContainer">
+
+                </div>
+                <div class="pagination">
+                    <div class="paginBtn prew prewFirst"><img src="../../assets/icons/pagin-prew-prew.png" alt="pagin-prew-prew" class="icon"> </div>
+                    <div class="paginBtn prew prewOne"><img src="../../assets/icons/pagin-prew.png" alt="pagin-prew" class="icon"></div>
+                    <div class="paginBtn active num">1</div>
+                    <div class="paginBtn next nextOne"><img src="../../assets/icons/pagin-next.png" alt="pagin-next-next" class="icon"></div>
+                    <div class="paginBtn next nextLast"><img src="../../assets/icons/pagin-next-next.png" alt="pagin-next-next" class="icon"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="contentWrapper">
+            <div class="footerContent">
+                <div class="footerInfo">
+                    <div class="column columnFirst info">
+                        <div class="heading">For questions and suggestions</div>
+                            <a class="footerItem" href="mailto:email@shelter.com">
+                                <img src="../../assets/icons/icon-email.svg" alt="icon-email">
+                                <h4 class="heading">email@shelter.com</h4>
+                            </a>
+                            <a class="footerItem" href="tel:+136745677554" target="_blank">
+                                <img src="../../assets/icons/icon-phone.svg" alt="icon-phone">
+                                <h4 class="heading">+13 674 567 75 54</h4>
+                            </a>
+                    </div>
+                    <div class="column columnSecond info">
+                        <div class="heading">We are waiting for your visit</div>
+                        <a class="footerItem" target="_blank" href="https://www.google.pl/maps/place/%D0%92%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D0%B0/@52.2330653,20.9211135,11z/data=!3m1!4b1!4m5!3m4!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287">
+                            <img src="../../assets/icons/icon-marker.png" alt="icon-marker">
+                            <h4 class="heading">1 Central Street, Boston <br> (entrance from the store)</h4>
+                        </a>
+                        <a class="footerItem" target="_blank" href="https://www.google.pl/maps/place/%D0%92%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D0%B0/@52.2330653,20.9211135,11z/data=!3m1!4b1!4m5!3m4!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287">
+                            <img src="../../assets/icons/icon-marker.png" alt="icon-marker">
+                            <h4 class="heading">18 South Park, London </h4>
+                        </a>
+                    </div>
+                </div>
+                <img src="../../assets/images/footer-puppy.png" alt="footer-puppy">
+            </div>
+        </div>
+        <img class="bg" src="../../assets/images/start-screen-background.png" alt="start-screen-background">
+        <img class="bg" src="../../assets/images/start-screen-gradient-background.png" alt="start-screen-gradient-background">
+    </footer>
+    <div class="modal">
+        <div class="modalContainer">
+            <button class="closeModal"><img src="../../assets/icons/closeModalIcon.png" alt="closeModal"></button>
+            <div class="modalContent">
+                <img src="" alt="modalAlt">
+                <div class="content">
+                    <div class="contentTop">
+                        <h2 class="title"></h2>
+                        <h4 class="subTitle"></h4>
+                    </div>
+                    <p class="description"></p>
+                    <ul class="petsOption">
+                        <li class="age">Age: <span></span></li>
+                        <li class="inoculations">Inoculations: <span></span></li>
+                        <li class="diseases">Diseases: <span></span></li>
+                        <li class="parasites">Parasites: <span></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalOverlay"></div>
+    <script src="./script.js"></script>
+    <script src="./pagination.js"></script>
+</body>
+</html>
