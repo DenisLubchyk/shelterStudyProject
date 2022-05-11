@@ -14,7 +14,7 @@ And add different functionality -> pagination, slider, modal window.
 - Figma
 
 ### Getting Started
-[Click to link to see project](https://denislubchyk.github.io/shelterStudyProject/)
+[Click to link to see project](https://denislubchyk.github.io/shelterStudyProject/) <br>
 [Click to link to see figma design](https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom)
 
 
